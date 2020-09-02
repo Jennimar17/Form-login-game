@@ -13,6 +13,7 @@
     <div class="login-user-box">
 
         <div class="form-container">
+
             <div class="logo-container">
                 <img src="./img/logo.png" alt="">
             </div>
@@ -21,29 +22,33 @@
             </p>
 
             <form>
-                <div class="container-input-box">
+                <div class="login-user">
                     <p>USERNAME</p>
-                    <label for="input-box">
-                        <input type="text" name="username" class="input-box">
+                    <label for="username">
+                        <input type="text" name="username" id="user" class="input-box">
                     </label>
                 </div>
-                <div class="container-input-box">
+
+                <div class="login-user">
                     <p>PASSWORD</p>
-                    <label for="input-box">
-                        <input type="password" name="password" class="input-box">
+                    <label for="pwd">
+                        <input type="password" name="password" id="pwd" class="input-box">
                     </label>
+                    <p id="check-pwd"></p>
                 </div>
+
                 <div class="server-list-box">
-                    <label for="server-list-option">Server:
-                        <input type="radio" name="server" class="server-list-option" value="NA"> NA
-                        <input type="radio" name="server" class="server-list-option" value="SA"> SA
-                        <input type="radio" name="server" class="server-list-option" value="BR"> BR
-                        <input type="radio" name="server" class="server-list-option" value="BR"> EU
+                    <label for="server">Server:
+                        <input type="radio" name="server" id="server" class="server-list-option" value="NA"> NA
+                        <input type="radio" name="server" id="server" class="server-list-option" value="SA"> SA
+                        <input type="radio" name="server" id="server" class="server-list-option" value="BR"> BR
+                        <input type="radio" name="server" id="server" class="server-list-option" value="BR"> EU
                     </label>
                 </div>
                 <div class="temrs-checkbox">
-                    <label for="temrs-checkbox">I Agree to <a href="./index.html">Terms</a>
-                        <input type="checkbox">
+                    <label for="temrs">I Agree to <a href="./index.html">Terms</a>
+                        <input type="checkbox" name="terms" id="terms">
+                        <p id="check-terms"></p>
                 </div>
                 <div class="submit-box">
                     <input type="submit" value="Sign In" id="login-bottom">
@@ -81,6 +86,8 @@
             <img src="./img/wall.jpg" alt="">
         </div>
     </div>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>

@@ -48,7 +48,7 @@ body{
   border-bottom-right-radius: 25px;
 }
 
-.container-input-box {
+.login-user {
   width: 282px;
   height: 48px;
   border-radius: 4px;
@@ -56,11 +56,18 @@ body{
   margin-bottom: 20px;
   
 }
-.container-input-box p {
+.login-user p {
   font-size: 13px;
   font-family: 'Montserrat';
   color: #6e6e6e;
   margin-bottom: 0px;
+}
+
+#check-pwd{
+    margin-bottom: 10px;
+    font-size: 11px;
+    color: red;
+
 }
 
 .input-box {
@@ -76,6 +83,7 @@ body{
   font-size: 12px;
   display: flex;
   justify-content: center;
+  
 
 }
 
