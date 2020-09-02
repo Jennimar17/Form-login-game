@@ -34,7 +34,7 @@ body{
 }
 
 .form-title {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 20px;
   font-size: 18px;
   font-weight: 500;
@@ -138,7 +138,7 @@ body{
 
 .footer-logo{
     width: 100px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .footer-logo img{

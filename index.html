@@ -9,26 +9,27 @@
 </head>
 
 <body>
-
+    <!-- div contenegor general -->
     <div class="login-user-box">
-
+        <!-- div contenedor del area de login -->
         <div class="form-container">
-
+            <!-- logo -->
             <div class="logo-container">
                 <img src="./img/logo.png" alt="">
             </div>
+            <!-- titulo -->
             <p class="form-title">
                 Sign in with your Blizzard <br /> Account
             </p>
-
+            <!-- aqui empieza el formulario -->
             <form>
+                <!-- divs separados para los campos user y pwd -->
                 <div class="login-user">
                     <p>USERNAME</p>
                     <label for="username">
                         <input type="text" name="username" id="user" class="input-box">
                     </label>
                 </div>
-
                 <div class="login-user">
                     <p>PASSWORD</p>
                     <label for="pwd">
@@ -36,7 +37,7 @@
                     </label>
                     <p id="check-pwd"></p>
                 </div>
-
+                <!-- seleccion de servidor ***HACERLA OBLIGATORIA*** -->
                 <div class="server-list-box">
                     <label for="server">Server:
                         <input type="radio" name="server" id="server" class="server-list-option" value="NA"> NA
@@ -45,20 +46,24 @@
                         <input type="radio" name="server" id="server" class="server-list-option" value="BR"> EU
                     </label>
                 </div>
+                <!-- caja de terminos ****HACERLA OBLIGATORIA**** -->
                 <div class="temrs-checkbox">
                     <label for="temrs">I Agree to <a href="./index.html">Terms</a>
                         <input type="checkbox" name="terms" id="terms">
-                        <p id="check-terms"></p>
+                    </label>
+                    <p id="check-terms"></p>
                 </div>
+                <!-- div de botones login y registrar -->
                 <div class="submit-box">
                     <input type="submit" value="Sign In" id="login-bottom">
                     <input type="submit" value="Registrer" id="registrer-bottom">
                 </div>
-                </label>
+                <!-- empieza footer -->
                 <p class="footer">
                     All trademarks referenced herein are the properties of their respective owners.
                     ©2020 Blizzard Entertainment, Inc. All rights reserved.
                 </p>
+                <!-- selector de lenguaje-->
                 <div class="language-list-box">
                     <label for="language-list-option">Language
                         <select name="language" id="language-list-option">
@@ -70,18 +75,15 @@
                             <option value="en">Polski</option>
                             <option value="en">Русский</option>
                         </select>
+                    </label>
                 </div>
-
-                </label>
-
             </form>
-
+            <!-- por fin termino el formulario-->
             <div class="footer-logo">
                 <img src="./img/blizz-logo.png" alt="">
             </div>
-
         </div>
-
+        <!-- imagen principal-->
         <div class="wall-container">
             <img src="./img/wall.jpg" alt="">
         </div>
