@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <div class="login-user-box">
+
+        <div class="form-container">
+            <div class="logo-container">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <p class="form-title">
+                Sign in with your Blizzard <br /> Account
+            </p>
+
+            <form>
+                <div class="container-input-box">
+                    <p>USERNAME</p>
+                    <label for="input-box">
+                        <input type="text" name="username" class="input-box">
+                    </label>
+                </div>
+                <div class="container-input-box">
+                    <p>PASSWORD</p>
+                    <label for="input-box">
+                        <input type="password" name="password" class="input-box">
+                    </label>
+                </div>
+                <div class="server-list-box">
+                    <label for="server-list-option">Server:
+                        <input type="radio" name="server" class="server-list-option" value="NA"> NA
+                        <input type="radio" name="server" class="server-list-option" value="SA"> SA
+                        <input type="radio" name="server" class="server-list-option" value="BR"> BR
+                        <input type="radio" name="server" class="server-list-option" value="BR"> EU
+                    </label>
+                </div>
+                <div class="temrs-checkbox">
+                    <label for="temrs-checkbox">I Agree to <a href="./index.html">Terms</a>
+                        <input type="checkbox">
+                </div>
+                <div class="submit-box">
+                    <input type="submit" value="Sign In" id="login-bottom">
+                    <input type="submit" value="Registrer" id="registrer-bottom">
+                </div>
+                </label>
+                <p class="footer">
+                    All trademarks referenced herein are the properties of their respective owners.
+                    ©2020 Blizzard Entertainment, Inc. All rights reserved.
+                </p>
+                <div class="language-list-box">
+                    <label for="language-list-option">Language
+                        <select name="language" id="language-list-option">
+                            <option value="en">English</option>
+                            <option value="en">Español</option>
+                            <option value="en">Deutsch</option>
+                            <option value="en">Français</option>
+                            <option value="en">Italiano</option>
+                            <option value="en">Polski</option>
+                            <option value="en">Русский</option>
+                        </select>
+                </div>
+
+                </label>
+
+            </form>
+
+            <div class="footer-logo">
+                <img src="./img/blizz-logo.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="wall-container">
+            <img src="./img/wall.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
